@@ -30,8 +30,8 @@ python empire_stdio.py
 ### 1. 下载项目
 
 ```bash
-git clone https://github.com/你的用户名/你的仓库名.git
-cd 你的仓库名
+git clone https://github.com/sisi-amo/commercial-empire.git
+cd commercial-empire
 ```
 
 或直接下载 ZIP 后解压到本地目录。

@@ -30,7 +30,7 @@ python empire_stdio.py
 ### 1. 下载项目
 
 ```bash
-git clone https://github.com/sisi-amo/commercial-empire.git
+git clone https://github.com/ling-veil/commercial-empire.git
 cd commercial-empire
 ```
 

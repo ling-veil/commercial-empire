@@ -14,7 +14,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 import json, time, uuid, threading
 
 SESSIONS = {}; SESSIONS_LOCK = threading.Lock()
-PORT = int(os.environ.get("EMPIRE_PORT", 8766))
+PORT = int(os.environ.get("EMPIRE_PORT", 8765))
 API_KEY = os.environ.get("EMPIRE_KEY", "")
 
 class Handler(BaseHTTPRequestHandler):

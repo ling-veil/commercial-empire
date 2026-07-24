@@ -9,7 +9,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 
 # ═══ 配置 ═══
 STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "empire-state.json")
-PORT = int(os.environ.get("EMPIRE_PORT", 8766))
+PORT = int(os.environ.get("EMPIRE_PORT", 8765))
 API_KEY = os.environ.get("EMPIRE_KEY", "")
 INITIAL_GRIDS = 10
 INITIAL_POWER = 30
